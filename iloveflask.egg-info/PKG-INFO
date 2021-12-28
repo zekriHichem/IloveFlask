@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: iloveflask
-Version: 0.1.0
+Version: 0.1.1
 Summary: iloveflask is a Python library to collect functions that help a flask developer generate reports, config files and repeat code.
 Home-page: UNKNOWN
 Author: Zekri Sidi Mohamed Hicham

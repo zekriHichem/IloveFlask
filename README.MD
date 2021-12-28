@@ -31,7 +31,7 @@ To use this lib run one or more of the following functions in the root of your f
 This is a simple function that allows you to create the requirements.txt file based on the libs installed in your development environment.
 
       main.generate_requirements()
-- **genrate_dockerfile(port, host) :**
+- **generate_dockerfile(port, host) :**
 It allows you to create a Docker file to deploy your API. It takes two parameters as input which are the port and the host. 
 
      **port**: it's an integer that indicates the port of the API.

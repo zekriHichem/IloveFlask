@@ -1,0 +1,4 @@
+# git
+/dist/*
+/.egg/*
+/iloveflask.egg-info/*
