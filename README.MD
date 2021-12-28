@@ -84,6 +84,13 @@ This function allows you to generate a .docx report for your API based on commen
        app.run()
 
    ```
+
+## TODO 
+
+- Add CRUD generation code
+- Add generation of other config files
+- Add generation of Auth jwt code
+- ... your ideas 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
