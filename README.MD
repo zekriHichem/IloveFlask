@@ -94,4 +94,4 @@ Please update the readme also when you add or modify a function.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
-| made with love by Sidi Mohamed Hicham :heart: :heart: :heart: |
+<p style="text-align: center;"> made with love by Sidi Mohamed Hicham :heart: :heart: :heart: </p>
