@@ -19,10 +19,10 @@ from iloveflask import main
 main.generate_requirements()
 
 # create Dockerfile
-main.genrate_dockerfile(port, host)
+main.generate_dockerfile(port, host)
 
 # create docx report for API
-main.genrate_report(pathfile)
+main.generate_report(pathfile)
 ```
 
 To use this lib run one or more of the following functions in the root of your flask project:
@@ -38,12 +38,12 @@ It allows you to create a Docker file to deploy your API. It takes two parameter
 
      **host**: it's a string that indicates the IP of the Host.
 
-      main.genrate_dockerfile(5000, "0.0.0.0")
+      main.generate_dockerfile(5000, "0.0.0.0")
 
 - **genrate_report(pathtofile.py) :**
 This function allows you to generate a .docx report for your API based on comments in your API. 
 
-      main.genrate_report("path/to/file.py")
+      main.generate_report("path/to/file.py")
 
    So it is necessary to respect a certain type of comments here is an example of file APP.py which contains the code of the API plus the necessary comments : 
  

@@ -15,7 +15,7 @@ def generate_requirements ():
           f.write(p + "\n")
     f.close()
 
-def generate_dockerfile(port, host): 
+def genrate_dockerfile(port, host): 
     f = open("Dockerfile", "a")
     f.write("FROM python:3.8-slim-buster" + "\n")
     f.write("WORKDIR /python-docker" + "\n")
@@ -25,7 +25,7 @@ def generate_dockerfile(port, host):
     f.write("CMD [ \"python3\", \"-m\" , \"flask\", \"run\", \"--port="+ str(port) +" \" ,\"--host= '"+ host + "' \"]" + "\n")
 
     
-def generate_report(name): 
+def genrate_report(name): 
     api = API.create(name)
     api.get_report()
 
