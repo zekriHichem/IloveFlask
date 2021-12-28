@@ -32,7 +32,7 @@ class API:
             cells[1].text = f.get_att()
             cells[2].text = f.returnn
             cells[3].text = f.desc
-        document.save('raport.docx')
+        document.save('report.docx')
     
     @staticmethod
     def create(name): 

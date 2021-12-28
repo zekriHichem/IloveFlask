@@ -7,7 +7,7 @@ except ImportError:  # pip < 10.0
 
 from raport.API import API
 
-def generate_requariements ():
+def generate_requirements ():
     x = freeze.freeze()
     f = open("requirements.txt", "a")
     for p in x:
@@ -25,7 +25,7 @@ def genrate_dockerfile(port, host):
     f.write("CMD [ \"python3\", \"-m\" , \"flask\", \"run\", \"--port="+ str(port) +" \" ,\"--host= '"+ host + "' \"]" + "\n")
 
     
-def genrate_raport(name): 
+def genrate_report(name): 
     api = API.create(name)
     api.get_report()
 
