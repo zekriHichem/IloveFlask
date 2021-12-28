@@ -5,7 +5,7 @@ try:
 except ImportError:  # pip < 10.0
     from pip.operations import freeze
 
-from raport.API import API
+from report.API import API
 
 def generate_requirements ():
     x = freeze.freeze()
